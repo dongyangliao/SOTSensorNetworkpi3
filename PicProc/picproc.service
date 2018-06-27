@@ -1,0 +1,14 @@
+[Unit]
+Description = PicProc
+After= rc-local.service
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/var/www/html/PicProc
+ExecStart=/usr/bin/python /var/www/html/PicProc/PictureProcess.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
