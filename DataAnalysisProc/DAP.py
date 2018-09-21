@@ -359,6 +359,18 @@ def execMM(msignal):
 		pass
 	
 	pass
+	if method == "3":
+                print "method 3"
+                subprocess.Popen('wolfram < ./Method3F.m', stdout=subprocess.PIPE, shell=True,stderr=subprocess.PIPE)  # , close$
+                pass
+
+        pass
+	if method == "4":
+                print "method 4"
+                subprocess.Popen('wolfram < ./Method4F.m', stdout=subprocess.PIPE, shell=True,stderr=subprocess.PIPE)  # , close$
+                pass
+
+        pass
 
 # main process
 # Signal type(one channel): channel,field,method,result,\n (e.g. 5,1,1,100,\n)

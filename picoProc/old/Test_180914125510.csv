@@ -1,0 +1,28 @@
+﻿MeasurementResult,Test
+Selected:B
+Color,No,Concentration (curve fitting by least square method),Concentration (straight line connecting two points),Unit,Value,Absorbance,LED Output Level,Sensor Accumulation Time,Temperature,DateTime
+R,1,,,mg/mL,10836,-0.085,10,50,1479,14/09/2018 12:55:05
+R,2,,,mg/mL,10837,-0.085,10,50,1479,14/09/2018 12:55:08
+G,1,5.805,4.235,mg/mL,13630,0.045,10,50,1479,14/09/2018 12:55:05
+G,2,5.844,4.255,mg/mL,13624,0.045,10,50,1479,14/09/2018 12:55:08
+B,1,4.878,4.206,mg/mL,11714,0.078,10,50,1479,14/09/2018 12:55:05
+B,2,4.914,4.234,mg/mL,11702,0.078,10,50,1479,14/09/2018 12:55:08
+
+StandardCurve
+Color,No,Concentration,Unit,Value1 Validity,Value1,Value2 Validity,Value2,Value3 Validity,Value3,Absorbance,LED Output Level,Sensor Accumulation Time,Temperature,DateTime
+R,0,0.000,mg/mL,true,8902,true,8904,true,8903,0,10,50,1434.5,26/04/2016 13:24:54
+R,1,0.100,mg/mL,true,8716,true,8714,true,8717,0.009,10,50,1434.5,26/04/2016 13:24:54
+R,2,1.000,mg/mL,true,8770,true,8773,true,8769,0.007,10,50,1434.5,26/04/2016 13:24:54
+R,3,10.000,mg/mL,true,8557,true,8556,true,8553,0.017,10,50,1434.5,26/04/2016 13:24:54
+R,4,100.000,mg/mL,true,7124,true,7127,true,7125,0.097,10,50,1434.5,26/04/2016 13:24:54
+R,5,,mg/mL,false,,false,,false,,,10,50,1434.5,26/04/2016 13:24:54
+G,0,0.000,mg/mL,true,15123,true,15124,true,15124,0,10,50,1434.5,26/04/2016 13:24:54
+G,1,0.100,mg/mL,true,14752,true,14751,true,14755,0.011,10,50,1434.5,26/04/2016 13:24:54
+G,2,1.000,mg/mL,true,14601,true,14606,true,14603,0.015,10,50,1434.5,26/04/2016 13:24:54
+G,3,10.000,mg/mL,true,12058,true,12052,true,12050,0.099,10,50,1434.5,26/04/2016 13:24:54
+G,4,100.000,mg/mL,true,4749,true,4751,true,4750,0.503,10,50,1434.5,26/04/2016 13:24:54
+B,0,0.000,mg/mL,true,14001,true,14003,true,14004,0,10,50,1434.5,26/04/2016 13:24:54
+B,1,0.100,mg/mL,true,13554,true,13553,true,13556,0.014,10,50,1434.5,26/04/2016 13:24:54
+B,2,1.000,mg/mL,true,13136,true,13142,true,13140,0.028,10,50,1434.5,26/04/2016 13:24:54
+B,3,10.000,mg/mL,true,9536,true,9510,true,9509,0.168,10,50,1434.5,26/04/2016 13:24:54
+B,4,100.000,mg/mL,true,802,true,800,true,799,1.243,10,50,1434.5,26/04/2016 13:24:54

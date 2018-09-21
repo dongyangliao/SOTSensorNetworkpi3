@@ -1,0 +1,14 @@
+[Unit]
+Description = picoproc
+After= rc-local.service
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/var/www/html/picoProc
+ExecStart=/usr/bin/python /var/www/html/picoProc/picoproc.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
