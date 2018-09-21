@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# raspberrypisoftware
-=======
 # SOTSensorNetworkpi3
 SOT with sensor network in raspberry pi 3
 
