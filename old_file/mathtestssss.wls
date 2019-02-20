@@ -1,0 +1,2 @@
+keyrt = "./mathtest"
+FileByteCount[keyrt]

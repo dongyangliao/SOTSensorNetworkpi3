@@ -4,7 +4,7 @@ import os,time,shutil,subprocess
 
 def Wolfram():
 	print "#############wolfram start"
-	p = subprocess.Popen('wolfram < LOTtestforT.m', stdout=subprocess.PIPE, shell=True,stderr=subprocess.PIPE)  # , close_fds=True)
+	p = subprocess.Popen('wolfram < LOTtestforT.wl', stdout=subprocess.PIPE, shell=True,stderr=subprocess.PIPE)  # , close_fds=True)
 	p.communicate()
 	print "#############worfram OK"
 	pass
@@ -176,6 +176,9 @@ def PicProc():
 			fstr= flist[i]
 			print fstr[17:20]
 			if fstr[17:20] == 'con':
+				fck = scanfilewitharg('./Cache/')
+				if len(fck) == 0:
+					break
 				#If con image is found, to next step.
 				print "##############2. con file is found, first move"
 				movefile(flist)

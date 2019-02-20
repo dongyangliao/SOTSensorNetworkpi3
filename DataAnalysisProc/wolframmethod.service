@@ -1,0 +1,14 @@
+[Unit]
+Description = DAPmethod
+After= rc-local.service
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/var/www/html/DataAnalysisProc
+ExecStart=/usr/bin/wolframscript /var/www/html/DataAnalysisProc/method.wls
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

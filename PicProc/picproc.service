@@ -7,7 +7,7 @@ Type=simple
 User=root
 Group=root
 WorkingDirectory=/var/www/html/PicProc
-ExecStart=/usr/bin/python /var/www/html/PicProc/PictureProcess.py
+ExecStart=/usr/bin/python /var/www/html/PicProc/PictureProcessAccr.py
 Restart=always
 
 [Install]

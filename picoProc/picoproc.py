@@ -5,7 +5,7 @@ import urllib3
 import shutil
 from time import sleep
 
-opath="/home/pi/picofile"
+opath="/home/pi/picof"
 movepath="/var/www/html/picoProc/old"
 
 def pico(filerow):
@@ -35,15 +35,15 @@ def pico(filerow):
 
     for i in range(Onenumi):
         # check the data or out of range
-        if rdlist[Rindex][2] == "":
+        if rdlist[Rindex][5] == "":
             #print("kong")
-            rdlist[Rindex][2] = "0"
-        if rdlist[Rindex][3] == "":
+            rdlist[Rindex][5] = "0"
+        if rdlist[Rindex][6] == "":
             #print("kong")
-            rdlist[Rindex][3] = "0"
+            rdlist[Rindex][6] = "0"
 
         r = http.request('GET', 'http://localhost:3000/update?key=LECO1UNUU9Y86N9P&field2=' + \
-                     rdlist[Rindex+i][2] + '&field3='+rdlist[Rindex+Onenumi+i][2]+'&field4='+rdlist[Rindex+Onenumi+Onenumi+i][2] \
+                     rdlist[Rindex+i][5] + '&field3='+rdlist[Rindex+Onenumi+i][5]+'&field4='+rdlist[Rindex+Onenumi+Onenumi+i][5] \
                      +'&field5='+rdlist[Rindex+i][6] + '&field6='+rdlist[Rindex+Onenumi+i][6]+'&field7='+rdlist[Rindex+Onenumi+Onenumi+i][6] + '')
         sleep(0.5)
         pass
